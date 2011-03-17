@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.1.15)  16 MAR 2011 00:40
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.1.15)  17 MAR 2011 23:20
 entering extended mode
  %&-line parsing enabled.
 **ZR.i3D.Specification.Design.tex
@@ -51,7 +51,7 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/local/texlive/2010basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/11/26 v0.05c Graphics/color for pdfTeX
+File: pdftex.def 2011/01/28 v0.05d Graphics/color for pdfTeX
 \Gread@gobject=\count87
 ))
 \Gin@req@height=\dimen103
@@ -111,44 +111,43 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )
-<header-en.jpg, id=1, 1003.75pt x 193.72375pt>
-File: header-en.jpg Graphic file (type jpg)
- <use header-en.jpg>
+<i3D_logo.pdf, id=1, 188.17145pt x 56.29472pt>
+File: i3D_logo.pdf Graphic file (type pdf)
+ <use i3D_logo.pdf>
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 37.
  [1
 
 {/usr/local/texlive/2010basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
-header-en.jpg>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 37.
-
+i3D_logo.pdf>]
 Underfull \hbox (badness 1048) in paragraph at lines 39--40
 []\OT1/cmr/m/n/10.95 Zombie Riot - Al-lied Mod-ders, $\OT1/cmtt/m/n/10.95 http 
 : / / forums . alliedmods . net / showthread . php ? p =
  []
 
-<Valve_logo.pdf, id=12, 1015.93248pt x 277.69273pt>
+<Valve_logo.pdf, id=21, 1015.93248pt x 277.69273pt>
 File: Valve_logo.pdf Graphic file (type pdf)
  <use Valve_logo.pdf>
-<Counter-Strike_Source_logo.pdf, id=13, 469.75145pt x 66.81877pt>
+<Counter-Strike_Source_logo.pdf, id=22, 469.75145pt x 66.81877pt>
 File: Counter-Strike_Source_logo.pdf Graphic file (type pdf)
 
 <use Counter-Strike_Source_logo.pdf>
-<Source_engine_logo.pdf, id=14, 523.77542pt x 160.66907pt>
+<Source_engine_logo.pdf, id=23, 523.77542pt x 160.66907pt>
 File: Source_engine_logo.pdf Graphic file (type pdf)
 
 <use Source_engine_logo.pdf> [2 <./Valve_logo.pdf> <./Counter-Strike_Source_log
 o.pdf> <./Source_engine_logo.pdf>] (./ZR.i3D.Specification.Design.aux) ) 
 Here is how much of TeX's memory you used:
- 1354 strings out of 494749
- 18720 string characters out of 3170619
- 71069 words of memory out of 3000000
- 4583 multiletter control sequences out of 15000+200000
+ 1358 strings out of 494749
+ 18785 string characters out of 3170619
+ 71838 words of memory out of 3000000
+ 4588 multiletter control sequences out of 15000+200000
  9018 words of font info for 32 fonts, out of 3000000 for 9000
  166 hyphenation exceptions out of 8191
  25i,6n,19p,516b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -161,10 +160,10 @@ pfb></usr/local/texlive/2010basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 cmr17.pfb></usr/local/texlive/2010basic/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmti10.pfb></usr/local/texlive/2010basic/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmtt10.pfb>
-Output written on ZR.i3D.Specification.Design.pdf (2 pages, 187359 bytes).
+Output written on ZR.i3D.Specification.Design.pdf (2 pages, 110685 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
