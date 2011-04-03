@@ -1,2 +1,5 @@
 .DS_Store
 *.dia~
+*.aux
+*.log
+*.synctex.gz
