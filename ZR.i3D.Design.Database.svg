@@ -14,7 +14,7 @@
     <ellipse style="fill: #000000" cx="20" cy="55" rx="2" ry="2"/>
     <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="24" y="61">steam_id</text>
     <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="141.8" y="61">text</text>
-    <ellipse style="fill: #000000" cx="20" cy="71" rx="2" ry="2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="20" cy="71" rx="2" ry="2"/>
     <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="24" y="77">class_id</text>
     <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="141.8" y="77">int</text>
     <ellipse style="fill: #000000" cx="20" cy="87" rx="2" ry="2"/>
