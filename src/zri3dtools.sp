@@ -2,10 +2,11 @@
 #include <sdktools>
 #include <cstrike>
 #include <sdkhooks>
+#include <i3dtools/classes>
 
 #pragma semicolon 1
 
-#define PLUGIN_VERSION "1.0.0"
+#define PLUGIN_VERSION "0.0.1"
 
 new Handle:cvar_zombie_team;
 new String:zombie_team[8];
