@@ -1,6 +1,6 @@
 #!/bin/bash
 
-test -e bin || mkdir bin
+test -e compiled || mkdir compiled
 
 if [[ $# -ne 0 ]]
 then
@@ -8,7 +8,7 @@ then
     do
         smxfile="`echo $i | sed -e 's/\.sp$/\.smx/'`";
 	    echo -n "Compiling $i...";
-	    ./spcomp src/$i -obin/$smxfile
+	    ./spcomp $i -ocompiled/$smxfile
     done
 else
 
@@ -16,6 +16,6 @@ for sourcefile in *.sp
 do
 	smxfile="`echo $sourcefile | sed -e 's/\.sp$/\.smx/'`"
 	echo -n "Compiling $sourcefile ..."
-	./spcomp src/$sourcefile -obin/$smxfile
+	./spcomp $sourcefile -ocompiled/$smxfile
 done
 fi
