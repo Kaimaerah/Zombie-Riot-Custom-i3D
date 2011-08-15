@@ -14,7 +14,7 @@ new classes_ClassId[64][_MAX_CLASSES];
  * Initialize the classes part of this plugin
  */
 public Classes_OnPluginStart(){
-	classes_CvarKVFilePath = CreateConVar("sm_classes_kv_file", "cfg/sourcemod/classes.kv");
+	classes_CvarKvFilePath = CreateConVar("sm_classes_kv_file", "cfg/sourcemod/classes.kv");
 	RegConsoleCmd("sm_classes", Classes_BuildClassMenu());
 	if(!Classes_ReadKvFile()){
 		LogError("Failed to read from KV config at %s", classes_KvFilePath);
@@ -35,7 +35,7 @@ public Classes_OnPluginUnload(){
  * @return true on success, false otherwise
  */
 public bool:Classes_ReadKvFile(){
-	GetConvVarString(classes_CvarKvFilePath, classes_KvFilePath, sizeof(classes_KvFilePath));
+	GetConVarString(classes_CvarKvFilePath, classes_KvFilePath, sizeof(classes_KvFilePath));
 	// Get the KVs from file
 	if(!FileToKeyValues(classes_KvFile, classes_KvFilePath)){
 		// Return false if the file wasn't parsed.
@@ -43,7 +43,7 @@ public bool:Classes_ReadKvFile(){
 	}
 	
 	// Go to the first subkey of the file
-	if(!KvGoToFirstSubKey(classes_KvFile)){
+	if(!KvGotoFirstSubKey(classes_KvFile)){
 		return false;
 	}
 	new index = 0;
