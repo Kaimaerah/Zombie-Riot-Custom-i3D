@@ -57,10 +57,9 @@ The database used for persistance will consist of a single table for storing the
 The KV config files will allow administator users of the system to define classes and player customisations for their own needs. This system will use 4 KV files: classes, trails, glows and models. When parsing these files, certain conditions need to be met, otherwise the system will log an error and disable the affected module of the system. Example conditions: all identifiers must be unique and non-null, all modifiers must be greater than zero and non-null.
 
 \subsubsection{classes.kv}
-The Classes KV will define the identifiers and modifiers of the human classes. Each entry will contain the following fields:
+The Classes KV will define the identifiers and modifiers of the human classes. Each entry will be identified by thier class name and contain the following fields:
 \begin{description}
 \item[class\_id]The unique identifier of this class.
-\item[class\_name]The name of this class, used for menus and messages.
 \item[is\_healer\_class]Bloolean value indicating if this is a medic class.
 \item[medic\_medpacks]Number of medpacks available to give in a round. Only applicable when is\_healer\_class is set to true.
 \item[modifier\_health]The modifier for the starting health of this class.

@@ -31,7 +31,7 @@ public OnPluginStart()
 	cvar_zombie_team = FindConVar("zriot_zombieteam");
 	
 	// Call the other initializers in the includes
-#ifdef _classes_included
+#if defined _classes_included
 	Classes_OnPluginStart();
 #endif
 }
@@ -111,4 +111,10 @@ public Action:OnWeaponEquip(client, weapon)
 			}
 		}
 	}
+}
+
+public OnPluginEnd(){
+#if defined _classes_included
+	Classes_OnPluginEnd();
+#endif
 }
